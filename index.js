@@ -15,7 +15,8 @@ return kittens
 }
 
 function destructivelyRemoveLastKitten(){
-
+kittens.unpush(name)
+return kittens
 }
 
 function destructivelyRemoveFirstKitten(){
