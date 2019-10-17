@@ -15,7 +15,7 @@ return kittens
 }
 
 function destructivelyRemoveLastKitten(){
-kittens.unpush(name)
+kittens.pop(name)
 return kittens
 }
 
