@@ -25,9 +25,7 @@ return name
 }
 
 function appendKitten(name){
-var kittens = [...kittens, name]
-console.log(kittens)
-return kittens
+return [...kittens, name]
 }
 
 function prependKitten(name){
