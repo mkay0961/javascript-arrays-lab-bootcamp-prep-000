@@ -26,6 +26,7 @@ return name
 
 function appendKitten(name){
 kittens = [...kittens, name]
+console.log(kittens)
 return kittens
 }
 
