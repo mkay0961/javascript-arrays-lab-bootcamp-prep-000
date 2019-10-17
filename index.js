@@ -33,11 +33,9 @@ return [name, ...kittens]
 }
 
 function removeLastKitten(){
-console.log(kittens.Length)
-kittens.slice(kittens.Length)
+console.log(kittens.length)
+kittens.slice(kittens.length)
 return kittens
-console.log(kittens)
-
 }
 
 function removeFirstKitten(){
