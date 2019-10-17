@@ -33,6 +33,7 @@ return [name, ...kittens]
 }
 
 function removeLastKitten(){
+console.log(kittens.length)
 
 }
 
