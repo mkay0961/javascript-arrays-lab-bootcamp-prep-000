@@ -36,6 +36,7 @@ function removeLastKitten(){
 console.log(kittens.length)
 kittens.slice[kittens.length]
 return kittens
+console.log(kittens)
 
 }
 
