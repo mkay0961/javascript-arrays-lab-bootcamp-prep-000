@@ -25,7 +25,7 @@ return name
 }
 
 function appendKitten(name){
-kittens = [name, ...kittens]
+kittens = [...kittens, name]
 console.log(kittens)
 return kittens
 }
