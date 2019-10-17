@@ -34,8 +34,8 @@ return [name, ...kittens]
 
 function removeLastKitten(){
 console.log(kittens.length)
-kittens = kittens.slice(0, kittens.length - 1)
-return kittens
+return kittens.slice(0, kittens.length - 1)
+
 }
 
 function removeFirstKitten(){
